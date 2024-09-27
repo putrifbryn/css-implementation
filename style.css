@@ -1,0 +1,61 @@
+* {
+    font-family: "Rubik", sans-serif;
+    color: #40444e;
+}
+
+.container {
+    background-color: #fff;
+    width: fit-content;
+    margin: 3rem auto;
+    padding: 1rem 3rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 13px 8px rgba(64,68,78,0.15);
+    -webkit-box-shadow: 0px 0px 13px 8px rgba(64,68,78,0.15);
+    -moz-box-shadow: 0px 0px 13px 8px rgba(64,68,78,0.15);
+}
+
+label {
+    font-size: .9em;
+    color: #4b505c;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+input:not([type="checkbox"]), select {
+    width: 100%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    font-size: .85em;
+
+    color: #82889a;;
+    border: 1px solid #00aa5b;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin: 0 3px;
+
+    border: 1.2px solid #00aa5b;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #00aa5b;
+
+    cursor: pointer;
+}
+
+button:hover {
+    scale: 1.02;
+    transition: 0.3s;
+}
+
+button#submit {
+    color: #fff;
+    background-color: #00aa5b;
+    border: none;
+}
